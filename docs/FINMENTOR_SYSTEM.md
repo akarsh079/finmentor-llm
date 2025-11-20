@@ -65,12 +65,33 @@ These integrations will require:
  - caching systems,
  - rate-limit handling, and
  - safety filters to prevent misuse.
- 
+
 All of this is future-scope and explicitly excluded from the MVP system.
 
 ### 4C. Explanation engine
-<!-- Say that explanations come from: LLM + curated financial facts from your JSON / future knowledge base. -->
+FinMentor’s explanation engine generates clear, beginner-safe financial explanations using a hybrid approach:
+ - User question
+ - Relevant curated content retrieved from the static JSON knowledge base
+ - LLM reasoning constrained to beginner-friendly, safe financial explanations
 
+The LLM acts as a controlled interpreter, not a source of truth. It uses:
+ 1) Curated financial facts from finmentor_questions_v1.json
+ 2) Category context (example topics, definitions, common questions)
+ 3) LLM generation to rewrite and expand the retrieved content into an explanation the user can understand
+ 4) Safety rules to avoid:
+   - investment recommendations
+   - hallucinated financial numbers
+   - personalized financial advice
+   - tax/credit instructions requiring a professional
+
+The explanation engine does NOT access the internet, perform RAG, use embeddings, or fetch real-time financial data in the MVP.
+
+All outputs must be:
+ - accurate according to the curated dataset
+ - simple, clear, and free of jargon
+ - aligned with core financial literacy standards
+ - safe for minors and beginners
+ 
 ## 5. High-level features (eventual)
 <!-- What FinMentor should eventually be able to do. Keep it high-level. -->
 - Explain financial concepts
