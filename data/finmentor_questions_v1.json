@@ -1,0 +1,118 @@
+[
+  {
+    "category": "Budgeting & Cash Flow",
+    "description": "Understanding how to manage income, expenses, savings, and build an emergency fund.",
+    "example_topics": [
+      "budgeting methods",
+      "emergency funds",
+      "tracking spending"
+    ],
+    "questions": [
+    "How do I start a budget?",
+    "How much should I save each month?",
+    "What is an emergency fund?",
+    "How do I set up an emergency fund?",
+    "What is a fixed expense?", 
+    "What is a variable expense?", 
+    "What is a savings rate?", 
+    "What is the best way to track spending?", 
+    "What apps or websites are most effective in tracking my spending?",
+    "Where do young adults typically overspend?",
+    "What are the various budgeting strategies?"
+    ]
+  },
+  {
+    "category": "Credit & Debt",
+    "description": "Building credit, understanding credit scores, and avoiding harmful debt.",
+    "example_topics": [
+      "credit score factors",
+      "APR vs interest",
+      "credit cards"
+    ],
+    "questions": [
+      "What is a credit score?", 
+      "What factors go into determining a credit score?",
+      "How do I increase my credit score?", 
+      "What's the benefit of having a high credit score?", 
+      "What's considered a low or high credit score?",
+      "What does 'payment history' mean and why does it matter?",
+      "What is interest?",
+      "Who sets interest rates?",
+      "Why do interests rate change?", 
+      "Why is high interest bad?",
+      "What is a credit card?",
+      "How do credit cards work?",
+      "Why do people use credit cards?",
+      "What are the advantages and disadvantages of using a credit card instead of cash/debit?",
+      "How can I get a credit card?",
+      "What are some mistakes that can tank credit?"
+    ]
+  },
+  {
+    "category": "Banking Basics",
+    "description": "Checking vs savings, APY, high-yield accounts, and storing money safely.",
+    "example_topics": [
+      "checking vs saving accounts",
+      "FDIC insurance",
+      "APY basics"
+    ],
+    "questions": [
+      "What are high-yield savings?",
+      "What is an APY?",
+      "What is an APR?",
+      "What's the difference between APY and APR and when does each matter?",
+      "What is FDIC insurance?",
+      "How do banks profit?",
+      "What services do banks provide?",
+      "How do banks use the money I deposit?",
+      "Why do savings accounts differ?",
+      "What is the difference between a checking and savings account?",
+      "How do I open a checking account?",
+      "How do I open a savings account?",
+      "Which bank account is best for students?",
+      "Where should I keep my savings?",
+      "Why is saving important even if I don't make much money?",
+      "How much should I save instead of spend?"
+    ]
+  },
+  {
+    "category": "Investing Fundamentals",
+    "description": "The building blocks of investing — stocks, bonds, ETFs, diversification, and compound interest.",
+    "example_topics": [
+      "stocks vs bonds",
+      "what are ETFs",
+      "risk vs reward"
+    ],
+    "questions": []
+  },
+  {
+    "category": "Index Funds & ETFs",
+    "description": "Understanding low-cost diversified funds and why most beginners should start here.",
+    "example_topics": [
+      "VOO vs VTI",
+      "expense ratios",
+      "diversification"
+    ],
+    "questions": []
+  },
+  {
+    "category": "Taxes & Retirement",
+    "description": "Basics of Roth IRAs, 401(k)s, capital gains, and tax-efficient investing.",
+    "example_topics": [
+      "Roth IRA",
+      "capital gains tax",
+      "tax-advantaged accounts"
+    ],
+    "questions": []
+  },
+  {
+    "category": "Avoiding Financial Mistakes",
+    "description": "How to avoid scams, bad loans, high-fee products, and common beginner mistakes.",
+    "example_topics": [
+      "credit card debt",
+      "meme stocks",
+      "buy-now-pay-later risks"
+    ],
+    "questions": []
+  }
+]
