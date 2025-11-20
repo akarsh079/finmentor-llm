@@ -48,7 +48,25 @@ This JSON dataset serves as the single source of truth for:
 All MVP logic operates exclusively on this static curated JSON file.
 
 ### 4B. Future dynamic data (NOT in MVP)
-<!-- List, but explicitly mark as future: stock prices, ETF data, APY, inflation, etc. -->
+FinMentor will eventually integrate dynamic, real-time financial data sources to provide up-to-date context and examples. These data sources are not part of the MVP and will be implemented in later versions.
+
+Planned future data sources include:
+ - Live stock prices (e.g., AAPL, S&P 500, ETFs)
+ - ETF and index fund metadata (expense ratios, holdings, performance history)
+ - Savings account APY rates from major banks
+ - Credit card APRs and reward structures
+ - Inflation and CPI data
+ - Tax bracket data by year and filing status
+ - Loan and mortgage rate data
+
+These integrations will require:
+ - external APIs,
+ - validation layers,
+ - caching systems,
+ - rate-limit handling, and
+ - safety filters to prevent misuse.
+ 
+All of this is future-scope and explicitly excluded from the MVP system.
 
 ### 4C. Explanation engine
 <!-- Say that explanations come from: LLM + curated financial facts from your JSON / future knowledge base. -->
