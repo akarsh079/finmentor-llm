@@ -106,7 +106,17 @@
       "expense ratios",
       "diversification"
     ],
-    "questions": []
+    "questions": [
+      "What is the S&P 500 index?",
+      "What is the VOO?",
+      "What is the VTI?",
+      "What is the QQQ?",
+      "How are ETFs built?",
+      "What are expense ratios?",
+      "How should beginners think about asset allocation?",
+      "How can I use index funds to my advantage?",
+      "What's the difference between an ETF and a stock?"
+    ]
   },
   {
     "category": "Taxes & Retirement",
@@ -116,7 +126,20 @@
       "capital gains tax",
       "tax-advantaged accounts"
     ],
-    "questions": []
+    "questions": [
+      "What is a Roth IRA?",
+      "What is a 401(k)?",
+      "How do I open a 401(k)?",
+      "Do I need to care about taxes if I'm young?",
+      "How much do college students get taxed?",
+      "What are capital gains?",
+      "Do I get taxed on capital gains?",
+      "What are tax-advantaged accounts?",
+      "What happens if I don't pay my taxes on time?",
+      "When do I have to start paying taxes?",
+      "What's the difference between long-term and short-term capital gains taxes?",
+      "What is a Roth IRA contribution limit?"
+    ]
   },
   {
     "category": "Avoiding Financial Mistakes",
@@ -126,6 +149,38 @@
       "meme stocks",
       "buy-now-pay-later risks"
     ],
-    "questions": []
-  }
+    "questions": [
+      "How do I avoid getting scammed?",
+      "Why is BNPL risky?",
+      "What is credit card debt?",
+      "How much debt is considered too much?",
+      "What are high-fee accounts?",
+      "What are meme stocks?",
+      "What is day trading?",
+      "Why do people day trade?",
+      "Is day trading a feasible job?",
+      "What are some examples of gambling disguised as investing?",
+      "What are bad loans?",
+      "How do I know when I'm getting a bad loan?"
+    ]
+  },
+  {
+  "category": "Education Finance",
+  "description": "Understanding student loans, FAFSA, interest, repayment options, and financial aid basics.",
+  "example_topics": [
+    "FAFSA",
+    "federal vs private loans",
+    "subsidized vs unsubsidized interest"
+  ],
+  "questions": [
+    "How do student loans work?",
+    "What is the FAFSA and how do I apply?",
+    "What is the difference between federal and private student loans?",
+    "What is the difference between subsidized and unsubsidized loans?",
+    "How is interest calculated on student loans?",
+    "When do I start repaying student loans?",
+    "What repayment options do student loans have?",
+    "How can I avoid taking on too much student debt?"
+  ]
+}
 ]
