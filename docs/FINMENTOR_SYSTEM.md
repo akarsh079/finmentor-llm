@@ -91,15 +91,24 @@ All outputs must be:
  - simple, clear, and free of jargon
  - aligned with core financial literacy standards
  - safe for minors and beginners
- 
+
 ## 5. High-level features (eventual)
-<!-- What FinMentor should eventually be able to do. Keep it high-level. -->
-- Explain financial concepts
-- Answer user questions
-- Map questions to categories/topics
-- Provide beginner-safe, non-technical explanations
-- Avoid giving personalized investment advice
-- Avoid hallucinated numbers
+FinMentor will eventually support a broad set of capabilities, extending beyond the MVP. These include:
+ - Explain financial concepts using curated data, structured reasoning, and safe LLM generation
+ - Answer any beginner-level finance question by routing it to the correct topic
+ - Classify user queries into categories, subtopics, and difficulty levels
+ - Retrieve + summarize relevant knowledge from the curated dataset and (future) dynamic sources
+ - Provide beginner-safe, jargon-free explanations tailored to teens and young adults
+ - Deliver contextual examples (budgets, credit score scenarios, simple savings models, etc.)
+ - Support future RAG with embeddings for more accurate retrieval
+ - Integrate real-time financial data (APY, inflation, ETF metadata, tax brackets) in future versions
+ - Prevent unsafe behavior:
+  1) No personalized investment advice
+  2) No hallucinated numbers
+  3) No misleading tax/legal claims
+  4) No inappropriate financial risk-taking instructions
+ - Offer multi-step reasoning for topics like budgeting, debt payoff strategies, and savings plans
+ - Expose a clean API for future UI/website integration
 
 ## 6. MVP Scope (what you will build NOW)
 <!-- This is critical. Nail this. Explicitly list what MVP DOES and DOES NOT do. -->
