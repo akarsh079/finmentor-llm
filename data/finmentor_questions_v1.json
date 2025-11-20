@@ -83,7 +83,20 @@
       "what are ETFs",
       "risk vs reward"
     ],
-    "questions": []
+    "questions": [
+      "What is a stock?",
+      "What is a bond?",
+      "How can I own a stock or bond?",
+      "What benefits do I get from owning stocks or bonds?",
+      "What's the difference between ETFs and mutual funds?",
+      "What is diversification in investing?",
+      "How can I use diversification to my advantage?",
+      "What are the advantages and disadvantages of investing long term?",
+      "What are the advantages and disadvantages of investing short term?",
+      "How do I start investing?",
+      "When is the best time to start investing?",
+      "What is compound interest?"
+    ]
   },
   {
     "category": "Index Funds & ETFs",
