@@ -70,3 +70,41 @@ The LLM is treated as a **replaceable component**, not the core of the system.
 
 ## Repository Structure
 
+## Roadmap
+
+### **Phase 1 — Foundations (Complete ✅)**
+- Defined system scope and safety guardrails for education-only financial content  
+- Implemented a deterministic policy router (ALLOW / TRANSFORM / REFUSE) to prevent personalized financial advice  
+- Added a rewrite mechanism to transform advice-seeking queries into educational prompts  
+- Built a sanity checker and **34 unit tests** to enforce guardrails and prevent regressions  
+- Established a modular system architecture separating policy, reasoning, retrieval, and evaluation layers  
+
+---
+
+### **Phase 2 — Knowledge Modeling (In Progress)**
+- Design a canonical **ConceptCard** schema for safe financial education  
+- Encode concepts, prerequisites, misconceptions, and scope boundaries  
+- Add validation logic to reject unsafe or overly specific content at the data layer  
+
+---
+
+### **Phase 3 — Reasoning & Retrieval**
+- Implement controlled retrieval of ConceptCards based on user intent  
+- Build an intent-aware reasoning flow that generates educational explanations without advice leakage  
+- Support multi-concept explanations with explicit tradeoffs and limitations  
+
+---
+
+### **Phase 4 — Evaluation & Safety Regression**
+- Add automated checks for guardrail violations across system outputs  
+- Expand test coverage for edge cases and ambiguous user intent  
+- Introduce regression testing to ensure safety guarantees hold over time  
+
+---
+
+### **Phase 5 — Productization (Optional / Long-Term)**
+- Expose the system via a lightweight API  
+- Add basic observability, logging, and configuration management  
+- Explore a minimal user interface for educational use cases  
+
+
