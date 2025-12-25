@@ -1,0 +1,39 @@
+id: credit_score
+title: Credit Score
+category: credit
+difficulty: beginner
+
+summary:
+  - A credit score is a numerical representation of credit risk calculated using information from a person's credit report. It is commonly used by lenders and other organizations to help assess the likelihood that borrowed money will be repaid.
+
+core_mechanics:
+  - Calculated using information reported to credit bureaus, such as payment history, outstanding debt, and account history
+  - Produced by statistical scoring models designed to estimate credit risk
+  - Different scoring models may use similar types of information but weigh them differently
+
+examples:
+  - scenario: Two organizations review the same credit report using different credit scoring models
+    explanation: Each organization may receive a different credit score because scoring models can apply different calculations and weighting to the same underlying information
+
+misconceptions:
+  - There is only one universal credit score used by all lenders
+  - A credit score is a complete measure of a person’s overall financial health
+
+non_goals:
+  - Explaining how to increase, improve, or optimize a credit score
+  - Recommending specific financial products or personal financial actions
+
+safety:
+  allowed_intents:
+    - educational_explanation
+    - definition_lookup
+  forbidden_intents:
+    - personal_advice
+    - score_optimization
+    - product_recommendation
+
+metadata:
+  sources:
+    - https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/
+  last_updated: 2025-12-25
+
