@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finmentor"
+version = "0.1.0"
+description = "FinMentor is a financial education engine (no advice)."
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["finmentor*"]
+exclude = ["data*"]
