@@ -1,0 +1,38 @@
+id: credit_report
+title: Credit Report
+category: credit
+difficulty: beginner
+
+summary:
+  - A credit report is a record of information about a person’s credit history that is maintained by a credit bureau. It is commonly used by lenders and other organizations to help evaluate credit-related decisions.
+
+core_mechanics:
+  - Credit reports are compiled by credit bureaus using information provided by data furnishers such as lenders, creditors, and collection agencies
+  - A report can include identifying information, account history, payment behavior, credit inquiries, and certain public record-related items where applicable
+  - Credit scores are typically calculated using information from credit reports, but a credit report and a credit score are distinct concepts
+
+examples:
+  - scenario: Two credit bureaus maintain separate records for the same individual
+    explanation: The individual’s credit reports may differ because data furnishers may report to some bureaus and not others, or because information is updated at different times
+
+misconceptions:
+  - A credit report and a credit score are the same thing
+  - All credit bureaus always have identical information for every consumer
+
+non_goals:
+  - Explaining how to correct, dispute, or improve information on a specific credit report
+  - Recommending financial products or personal financial actions
+
+safety:
+  allowed_intents:
+    - educational_explanation
+    - definition_lookup
+  forbidden_intents:
+    - personal_advice
+    - score_optimization
+    - product_recommendation
+
+metadata:
+  sources:
+    - https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-report-en-309/
+  last_updated: "2025-12-25"
