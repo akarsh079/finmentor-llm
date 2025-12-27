@@ -1,0 +1,41 @@
+id: apr
+title: Annual Percentage Rate (APR)
+category: credit
+difficulty: intermediate
+
+summary:
+  - The annual percentage rate (APR) is a standardized measure of the cost of borrowing money over a year, expressed as a percentage. It reflects the loan’s interest rate plus certain additional costs required to obtain the loan.
+
+core_mechanics:
+  - APR is expressed as an annual rate intended to represent the overall cost of borrowing over a year
+  - APR typically includes the stated interest rate along with certain fees or charges associated with the loan
+  - Because APR incorporates more than just the interest rate, two loans with the same interest rate can have different APRs
+  - APR is designed to support comparison across credit offers with different fee structures
+  - The specific costs included in APR are defined by disclosure rules and can vary by loan type
+
+examples:
+  - scenario: Two loans advertise the same interest rate but charge different upfront fees
+    explanation: Even though the interest rates match, the APRs differ because APR includes certain fees in addition to the interest rate
+
+misconceptions:
+  - APR and interest rate are interchangeable terms
+  - A lower interest rate always results in a lower APR
+
+non_goals:
+  - Recommending which loan or credit product to choose based on APR
+  - Explaining strategies, tactics, or steps to reduce APR or borrowing costs
+
+safety:
+  allowed_intents:
+    - educational_explanation
+    - definition_lookup
+  forbidden_intents:
+    - personal_advice
+    - score_optimization
+    - product_recommendation
+
+metadata:
+  sources:
+    - https://ask.fdic.gov/fdicinformationandsupportcenter/s/article/Q-What-is-annual-percentage-rate-APR?language=en_US
+    - https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/
+  last_updated: "2025-12-26"
