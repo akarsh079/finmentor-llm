@@ -1,0 +1,41 @@
+id: interest_rate
+title: Interest Rate
+category: credit
+difficulty: beginner
+
+summary:
+  - An interest rate is the price paid for borrowing money or the return earned for lending money, expressed as a percentage over a period of time. It represents how the value of money changes between the present and the future.
+
+core_mechanics:
+  - An interest rate is expressed as a percentage applied to a principal amount over a specified time period, often stated on an annual basis
+  - When money is borrowed, the interest rate determines how much additional money is owed beyond the original amount
+  - When money is lent or deposited, the interest rate determines how much additional money is earned over time
+  - Interest rates may be fixed, meaning they remain constant, or variable, meaning they can change over time
+  - An interest rate reflects only the stated rate itself and does not capture all costs associated with borrowing, which are represented separately by APR
+
+examples:
+  - scenario: A loan specifies an interest rate of 5 percent for one year
+    explanation: At the end of the year, the amount owed is greater than the original loan because interest is calculated as a percentage of the original amount over the year
+
+misconceptions:
+  - An interest rate and an annual percentage rate (APR) are the same thing
+  - An interest rate alone represents the total cost of borrowing
+
+non_goals:
+  - Explaining how to obtain, negotiate, or lower an interest rate
+  - Recommending financial products or personal financial actions
+
+safety:
+  allowed_intents:
+    - educational_explanation
+    - definition_lookup
+  forbidden_intents:
+    - personal_advice
+    - score_optimization
+    - product_recommendation
+
+metadata:
+  sources:
+    - https://www.investor.gov/introduction-investing/investing-basics/glossary/interest
+    - https://www.econlib.org/library/Enc/InterestRates.html
+  last_updated: "2025-12-26"
