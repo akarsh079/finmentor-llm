@@ -1,0 +1,41 @@
+id: compound_interest
+title: Compound Interest
+category: credit
+difficulty: beginner
+
+summary:
+  - Compound interest is interest that is calculated on both an original amount and on interest that has already been added over time. As interest accumulates, it becomes part of the amount used in future interest calculations.
+
+core_mechanics:
+  - Interest is calculated on the principal amount as well as on previously accumulated interest
+  - As interest is added to a balance, future interest calculations are based on a larger amount
+  - The frequency at which interest is calculated and added (such as annually or monthly) affects how quickly the balance changes
+  - Compound interest differs from simple interest, which is calculated only on the original principal
+  - Compounding can apply to both money saved or invested and to money owed on certain types of debt
+
+examples:
+  - scenario: A balance earns interest each year, and the interest is added to the balance
+    explanation: In later periods, interest is calculated on a larger amount because earlier interest has been included in the balance
+
+misconceptions:
+  - Compound interest is the same as simple interest
+  - Compound interest only applies to savings or investments and not to debt
+
+non_goals:
+  - Explaining strategies or methods to increase returns or reduce interest costs
+  - Recommending specific financial products, accounts, or personal financial actions
+
+safety:
+  allowed_intents:
+    - educational_explanation
+    - definition_lookup
+  forbidden_intents:
+    - personal_advice
+    - score_optimization
+    - product_recommendation
+
+metadata:
+  sources:
+    - https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest
+    - https://www.consumerfinance.gov/ask-cfpb/how-does-compound-interest-work-en-1683/
+  last_updated: "2025-12-26"
