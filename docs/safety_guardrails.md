@@ -1,7 +1,8 @@
 # FinMentor Safety & Scope Guardrails
 
 ## 1. Purpose
-FinMentor is an educational system designed to help users understand financial concepts, frameworks, and tradeoffs. It does not provide personalized financial advice.
+FinMentor is an educational system designed to help users understand financial concepts, frameworks, 
+and tradeoffs. It does not provide personalized financial advice.
 
 ## 2. Allowed Content
 - Conceptual explanations of financial topics

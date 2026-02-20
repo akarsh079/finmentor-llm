@@ -1,12 +1,13 @@
 # FinMentor
 
-FinMentor is a **financial education engine** designed to help college students and young adults learn personal finance concepts clearly, safely, and affordably.
+FinMentor is a **financial education engine** designed to help college students and young adults learn 
+personal finance concepts clearly, safely, and affordably.
 
 It focuses on **teaching understanding**, not giving personalized financial advice.
 
 ---
 
-## What FinMentor Is (and Is Not)
+## What FinMentor Is (and Is Not)python3 -m pytest -q
 
 ### ✅ What it is
 - A **system-level educational engine** for personal finance
@@ -64,7 +65,8 @@ At a high level, FinMentor consists of:
 - **Evaluation Layer**  
   Benchmarks correctness and learning quality.
 
-The LLM is treated as a **replaceable component**, not the core of the system.
+Models are optional components. The system architecture, guardrails, and knowledge modeling are the core 
+of the product.
 
 ---
 
@@ -81,7 +83,7 @@ The LLM is treated as a **replaceable component**, not the core of the system.
 
 ---
 
-### **Phase 2 — Knowledge Modeling (In Progress)**
+### **Phase 2 — Knowledge Modeling (Complete ✅)**
 - Design a canonical **ConceptCard** schema for safe financial education  
 - Encode concepts, prerequisites, misconceptions, and scope boundaries  
 - Add validation logic to reject unsafe or overly specific content at the data layer  
